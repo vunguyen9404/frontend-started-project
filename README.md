@@ -1,10 +1,10 @@
 # frontend-started-project
-Started project frontend with nodemon, scss and structure folder
+Started project frontend with nodemon, scss and folder structure
 
 ## Features
 - SCSS loader and auto build with nodemon
-- Folder structure convension
-- SCSS folder structure convension
+- Folder structure convention
+- SCSS folder structure convention
 
 ## Get started
 1. Install node modules
@@ -25,6 +25,6 @@ npm run build-scss
 
 
 ## Recommends
-> Project perfect working with [Visual Studio Code](https://code.visualstudio.com/) + [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
+> This project works perfectly with [Visual Studio Code](https://code.visualstudio.com/) + [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
 
-> Thanks for watching and stared !!
+> Thanks for watching and starring!!
