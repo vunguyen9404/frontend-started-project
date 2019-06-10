@@ -1,0 +1,21 @@
+.breadcrumb {
+  display: flex;
+  
+  li {
+
+    &:last-child a::after {
+      content: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: $base-background-color;
+      position: relative;
+  
+      &::after {
+        content: ">";
+        margin: 0 5px;
+      }
+    }
+  }
+}

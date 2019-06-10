@@ -1,0 +1,44 @@
+.modal {
+  background-color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: none;
+  width: 350px;
+  height: 560px;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 10;
+  box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.7);
+
+  &__head {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+.region {
+  &__head {
+    font-size: 14px;
+    color: $base-background-color;
+    margin: 10px 0;
+  }
+  &__city {
+    h4 {
+      font-size: 14px;
+      font-weight: normal;
+      margin: 10px 0;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .button-location {
+      margin: 5px;
+    }
+  }
+}

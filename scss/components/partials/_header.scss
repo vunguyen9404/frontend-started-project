@@ -1,0 +1,50 @@
+header {
+  background-color: #fff;
+  height: 60px;
+}
+
+.header {
+  display: flex;
+
+  &__logo {
+    width: 35%;
+    background-color: $base-background-color;
+    padding-left: 10px;
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+      display: inline-block;
+      height: 40px;
+    }
+  }
+
+  &__formgroup {
+    margin: 0 10px;
+    width: 100%;
+  }
+
+  &__nav {
+    width: 65%;
+    text-align: right;
+    height: 60px;
+  }
+
+  &--gray {
+    background-color: #F0F0F0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .header {
+    flex-direction: column;
+    
+    &__logo,
+    &__nav {
+      width: 100%;
+    }
+  }
+}

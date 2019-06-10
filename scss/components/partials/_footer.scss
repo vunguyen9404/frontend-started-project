@@ -1,0 +1,75 @@
+footer {
+  background-color: #fff;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+
+.footer-item {
+  flex-grow: 1;
+
+  &__head {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+  }
+
+  &__hotline {
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: $base-background-color;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  &__payment-method,
+  &__bct {
+    margin-top: 10px;
+    display: inline-block;
+  }
+}
+
+.own-product {
+  &__item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+
+    img {
+      margin-right: 10px;
+    }
+
+    a {
+      color: #000;
+      font-size: 14px;
+      text-decoration: none;
+      transition: color 0.2s;
+
+      &:hover {
+        color: #08c;
+      }
+    }
+  }
+}
+
+.link {
+  &__item {
+    margin: 15px 0;
+    cursor: pointer;
+    
+    a {
+      text-decoration: none;
+      color: #000;
+      font-size: 14px;
+      transition: color 0.2s;
+
+      &:hover {
+        color: #08c
+      }
+    }
+  }
+}

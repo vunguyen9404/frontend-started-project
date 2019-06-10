@@ -1,0 +1,31 @@
+#crl-banner .item{
+  text-align: center;
+  cursor: pointer;
+}
+
+#crl-label .owl-item {
+  .item {
+    background-color: #fff;
+    padding: 8px 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+  
+    p {
+      border-left: 1px solid rgba(0, 0, 0, 0.2);
+      transition: all 0.2s;
+      
+      &:hover {
+        color: #08c;
+      }
+    }
+  }
+
+  &:first-child .item p {
+    border: none;
+  }
+}
+
+#crl-label .synced .item {
+  font-weight: 700
+}

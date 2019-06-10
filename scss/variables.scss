@@ -1,0 +1,16 @@
+// Config grid responsive layout
+$gridScreen : (
+  sm: 576,
+  md: 768,
+  lg: 992,
+  xl: 1200
+);
+$colNumber: 12;
+
+// Base config variables
+$base-font-family: 'Roboto';
+$base-mini-font-size: 12px;
+$base-font-size: 14px;
+
+// Color
+$base-background-color: #C61D23;

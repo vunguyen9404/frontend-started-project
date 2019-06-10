@@ -1,0 +1,39 @@
+.categories-top {
+  margin: 10px 0 0;
+
+  .list-brand {
+    background-color: #fff;
+    margin-bottom: 10px;  
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    &-item {
+      flex-grow: 1;
+      border-left: .5px solid #E5E5E5;
+
+      a {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+      }
+
+      img {
+        text-align: center;
+        height: 26px;
+      }
+    }
+  }
+}
+
+
+.cat-product {
+  background-color: #fff;
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+}

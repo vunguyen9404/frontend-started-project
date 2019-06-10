@@ -1,0 +1,17 @@
+@mixin gencol($screen, $width) {
+    @for $i from 1 through $colNumber {
+      @media (min-width: $width + 'px') {
+        .col-#{$screen}-#{$i} {
+          float: left;
+          padding: 0 15px;
+          width: ($i / $colNumber) * 100%;
+        }
+      }
+    } 
+  };
+  
+  @mixin gengrid() {
+    @each $screen, $width in $gridScreen {
+      @include gencol($screen, $width);
+    }
+  };

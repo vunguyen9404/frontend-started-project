@@ -1,0 +1,29 @@
+.product-details {
+  background-color: #fff;
+  padding: 15px 0;
+}
+#media-list {
+  .list-item {
+    padding: 20px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-icon {
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    display: inline-block;
+  
+    .icon {
+      margin: 8px;
+    }
+
+    img {
+      width: 40px;
+      margin: 0px 5px;
+    }
+  }
+}

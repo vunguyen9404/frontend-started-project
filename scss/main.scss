@@ -1,0 +1,35 @@
+/*
+* import global variables
+*/
+@import 'variables';
+@import 'mixin';
+@import 'components/index';
+
+// Reset css
+@import 'reset';
+
+// Create responsive grid layout
+@include gengrid();
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #E5E5E5;
+}
+
+.row {
+  margin: 0 -15px;
+
+  :after {
+    content:"";
+    clear: both;
+  }
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  overflow: hidden;
+}

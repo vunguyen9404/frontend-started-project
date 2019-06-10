@@ -1,0 +1,22 @@
+// Import partials
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/typography';
+@import 'partials/button';
+@import 'partials/label';
+@import 'partials/nav';
+@import 'partials/form';
+@import 'partials/carousel';
+@import 'partials/product-section';
+@import 'partials/modal';
+@import 'partials/card';
+@import 'partials/breadcrumb';
+@import 'partials/icon';
+
+// Import page
+@import 'page/homepage';
+@import 'page/categories';
+@import 'page/single';
+
+// Import font-family
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
