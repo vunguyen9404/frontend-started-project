@@ -14,7 +14,7 @@ npm install
 
 2. Start scss loader
 ```
-npm run watch-scss
+npm run watch-css
 ```
 or
 
